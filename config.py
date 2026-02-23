@@ -1,10 +1,10 @@
 # config.py
 
 # Model settings
-MODEL_SOURCE = "huggingface"  # change to "local" for local testing
+MODEL_SOURCE = "local"  # change to "local" for local testing
 
 HUGGINGFACE_MODEL_PATH = "avivaaaaa123/fake-news-detector"
-LOCAL_MODEL_PATH = "./model/bert_model"
+LOCAL_MODEL_PATH = "./bert_model"
 MAX_LENGTH = 128
 
 # App settings
