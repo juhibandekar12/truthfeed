@@ -58,3 +58,5 @@ checkpoints/
 
 # Local model cache
 bert_model/
+
+pyproject.toml
