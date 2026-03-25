@@ -1,18 +1,42 @@
+# ─── Core / Data Science ───────────────────────────────────
 numpy
 pandas
 matplotlib
 seaborn
 plotly
 scikit-learn
-tensorflow==2.15.0
-transformers
+nltk
+wordcloud
+
+# ─── AI / ML ───────────────────────────────────────────────
+tensorflow-cpu==2.15.0
+transformers==4.35.0
 torch
 accelerate
 sentencepiece
-nltk 
-wordcloud
-transformers==4.35.0
-tensorflow==2.15.0
-huggingface_hub
+huggingface-hub
+
+# ─── Streamlit ─────────────────────────────────────────────
 streamlit==1.28.2
 altair==4.2.2
+
+# ─── Backend (FastAPI) ─────────────────────────────────────
+fastapi
+uvicorn[standard]
+motor
+pymongo
+python-dotenv
+passlib[bcrypt]
+bcrypt==4.0.1
+python-jose[cryptography]
+python-multipart
+requests
+aiofiles
+
+# ─── Content Moderation ────────────────────────────────────
+better-profanity
+duckduckgo-search==6.1.7
+
+# ─── News & Scheduling ────────────────────────────────────
+newsapi-python
+apscheduler

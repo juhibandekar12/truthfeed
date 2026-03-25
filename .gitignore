@@ -1,10 +1,15 @@
-# Virtual environment
+# Virtual environments
+venv/
 fvenv/
+env/
+.venv/
 
 # Model files (too large for GitHub)
 model/
 *.h5
 *.pkl
+*.pt
+*.bin
 
 # Dataset (too large for GitHub ~186MB total)
 dataset/
@@ -12,8 +17,44 @@ dataset/
 # Cache
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Environment
 .env
+.env.local
+.env.production
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Model checkpoints
 experiments/checkpoints/
 checkpoints/
+
+# Logs
+*.log
+
+# Test cache
+.pytest_cache/
+
+# Local model cache
+bert_model/
